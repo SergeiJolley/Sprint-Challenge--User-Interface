@@ -48,6 +48,8 @@ table {
 }
 
 * {
+    border: 1px solid white;
+    background: grey;
     box-sizing: border-box;
 }
 
@@ -143,4 +145,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.headercont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+  
+
+}
+.jumbo-img {
+    display:flex;
+    justify-content: center;
+    padding: 1%;
+}
+.topNav{
+
+padding: 2%;
+
 }
