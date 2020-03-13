@@ -48,8 +48,7 @@ table {
 }
 
 * {
-    border: 1px solid white;
-    background: grey;
+   background: grey;
     box-sizing: border-box;
 }
 
@@ -148,12 +147,12 @@ footer nav a {
 }
 
 .headercont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20%;
-  
+    display:flex;
+    width: 800px;
+    margin: 0 auto;
+    
+    
+
 
 }
 .jumbo-img {
@@ -161,8 +160,17 @@ footer nav a {
     justify-content: center;
     padding: 1%;
 }
-.topNav{
+.topNav {
+    display:flex;
+   justify-content: baseline;
 
-padding: 2%;
-
+}
+.topNav a {
+  
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 2%;
+  margin: 5%;
+  
 }
