@@ -205,6 +205,10 @@ p {
     justify-content: center;
 }
 
+.top-content img {
+    margin-bottom: 3%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -220,7 +224,6 @@ p {
 }
 
 footer {
-    width: 100%;
     background: black;
 }
 
@@ -262,6 +265,95 @@ header nav a:hover {
     color: yellowgreen;
 }
 
-.text-container {
-    margin-top: 20px;
+
+
+
+
+a.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button1:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.botsTxt {
+    width: 100%;
+
+}
+
+.meaning {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    justify-content: space-between;
+}
+
+.aboutz {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 5%;
+
+}
+
+.botsTxt {
+    margin-bottom: 3%;
+}
+
+.smoll {
+    display: flex;
+    margin-bottom: 3%;
+
+}
+
+.bot2 {
+    display: flex;
+
+    margin-bottom: 3%;
+}
+
+.meaning img {
+    margin-bottom: 3%;
+}
+
+.smoll p {
+    margin-bottom: 3%;
+}
+
+.smoll div {
+    border-bottom: 1px dashed black;
+    padding-bottom: 5%;
+}
+
+.bot2 div {
+    border-bottom: 1px dashed black;
+    padding-bottom: 5%;
+    border-bottom-width: 30%;
+
+}
+
+.bot2 p {
+    margin-bottom: 3%;
 }
